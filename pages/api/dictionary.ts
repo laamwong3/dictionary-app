@@ -39,7 +39,7 @@ export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Dictionary>
 ) {
-  const url = `https://api.dictionaryapi.dev/api/v2/entries/en/hello`;
+  const url = `https://api.dictionaryapi.dev/api/v2/entries/en/${req.query.keyword}`;
   fetch(url)
     .then((res) => res.json())
     .then((data) => res.status(200).json(data))

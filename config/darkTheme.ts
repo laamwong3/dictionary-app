@@ -5,6 +5,7 @@ import { red } from "@mui/material/colors";
 let darkTheme = createTheme({
   typography: {
     fontFamily: "Montserrat",
+    fontWeightLight: 100,
   },
   palette: {
     mode: "dark",

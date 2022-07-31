@@ -42,7 +42,11 @@ export default function DefinitionCard() {
                   <Card key={index} sx={{ m: 1, borderRadius: 5 }}>
                     <CardContent>
                       <Typography gutterBottom variant="h4">
-                        <Box component={"span"} fontWeight="bold">
+                        <Box
+                          component={"span"}
+                          fontWeight="bold"
+                          color="blueviolet"
+                        >
                           Definition:{" "}
                         </Box>
                         {definition.definition}

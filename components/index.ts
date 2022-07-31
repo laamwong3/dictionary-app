@@ -1,3 +1,4 @@
 import DefinitionCard from "./DefinitionCard";
+import DarkModeSwitch from "./DarkModeSwitch";
 
-export { DefinitionCard };
+export { DarkModeSwitch, DefinitionCard };
